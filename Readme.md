@@ -10,7 +10,7 @@ I use the video of myself for lip syncing. And since the pretrained VITS model f
 
 ## Instructions
 
-- The notebook starts off with code cells for fine-tuning a pretrained text-to-speech model (Vietnamese) from [piper](https://github.com/rhasspy/piper) to use a male voice. This process would take time (probably somewhere more than an hour) so one can skip the fine-tuning process by finishing the cells which install the required packages for piper (before the 'Download datasets' markdown cell) and then continue at the code cells after the 'Download fine-tuned model (to skip training phase)' markdown cell.
+- The notebook starts off with code cells for fine-tuning a pretrained text-to-speech model (Vietnamese) from [piper](https://github.com/rhasspy/piper) to use a male voice. You can have a look over the code but running these training cells would take time (probably somewhere more than an hour) so one can skip the fine-tuning process by finishing the cells which install the required packages for piper (before the 'Download datasets' markdown cell) and then continue at the code cells after the 'Download fine-tuned model (to skip training phase)' markdown cell.
 
 - The code will download the fine-tuned model in ONNX format and its json config file.
 
